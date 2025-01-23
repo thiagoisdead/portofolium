@@ -5,10 +5,14 @@ body {
     font-family: Arial, sans-serif;
     /* Pode personalizar a fonte */
 }
+a {
+    text-decoration: none;
+    color: inherit;
+}
 
 @font-face {
     font-family: 'Pragmatica-Extended-Bold';
-    src: url('./assets/fonts/PragmaticaExtendedBold.otf') format('opentype');
+    src: url('../assets/fonts/PragmaticaExtendedBold.otf') format('opentype');
     font-weight: bold;
     font-style: normal;
   }
