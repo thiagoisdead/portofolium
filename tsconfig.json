@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "ES5",                      // Alvo de compilação, geralmente ES5 ou ES6
+    "lib": ["dom", "esnext"],              // Bibliotecas que o projeto utiliza
+    "jsx": "react-jsx",                    // Configuração do JSX para React
+    "moduleResolution": "node",            // Como o TypeScript resolve módulos
+    "strict": true,                        // Ativar verificações de tipo mais rigorosas
+    "esModuleInterop": true,               // Interoperabilidade entre módulos CommonJS e ES
+    "skipLibCheck": true,                  // Ignorar checagem de bibliotecas para otimizar a compilação
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": ["src"],                      // Inclui os arquivos da pasta src
+  "exclude": ["node_modules"]              // Exclui a pasta node_modules
+}
