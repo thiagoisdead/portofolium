@@ -12,8 +12,8 @@ a {
 
 @font-face {
     font-family: 'Pragmatica-Extended-Bold';
-    src: url('../assets/fonts/PragmaticaExtendedBold.otf') format('opentype');
+    src: url('../../public/assets/fonts/PragmaticaExtendedBold.otf') format('opentype');
     font-weight: bold;
     font-style: normal;
-  }
+}
   
